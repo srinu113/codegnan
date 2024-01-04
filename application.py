@@ -59,7 +59,7 @@ def result():
 
 # Run the Flask application if this script is the main entry point
 if __name__=="__main__":
-    application.run(use_reloader=True,debug=True)
+    application.run()
 
 
 
